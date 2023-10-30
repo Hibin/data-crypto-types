@@ -83,20 +83,17 @@ declare module "data-crypto" {
   }
 
   export namespace Des {
-    function decrypt(...args: any[]): void;
-
-    function encrypt(...args: any[]): void;
+    function encrypt(plainTextHex: string, keyHex: string): string;
+    function decrypt(cipher: string, keyHex: string): string;
   }
 
   export namespace TripleDes {
-    function decrypt(...args: any[]): void;
-
-    function encrypt(...args: any[]): void;
-  }
+    function encrypt(plainTextHex: string, keyHex: string): string;
+    function decrypt(cipher: string, keyHex: string): string;
+}
 
   export namespace des {
-    function decrypt(...args: any[]): void;
-
-    function encrypt(...args: any[]): void;
+    function encrypt(plainTextHex: string, keyHex: string): string;
+    function decrypt(cipher: string, keyHex: string): string;
   }
 }
