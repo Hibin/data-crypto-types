@@ -1,0 +1,21 @@
+{
+    "name": "@types/data-crypto",
+    "version": "0.0.1",
+    "description": "TypeScript type definitions for the data-crypto module",
+    "main": "",
+    "types": "data-crypto.d.ts",
+    "author": "Dmitry",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Hibin/data-crypto-types.git"
+    },
+    "keywords": [
+        "typescript",
+        "types",
+        "data-crypto"
+    ],
+    "devDependencies": {
+        "data-crypto": "^1.4.4"
+    }
+}
