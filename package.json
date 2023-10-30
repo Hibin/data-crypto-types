@@ -1,9 +1,9 @@
 {
-    "name": "@types/data-crypto",
-    "version": "0.0.1",
+    "name": "data-crypto-types",
+    "version": "0.0.2",
     "description": "TypeScript type definitions for the data-crypto module",
     "main": "",
-    "types": "data-crypto.d.ts",
+    "types": "index.d.ts",
     "author": "Dmitry",
     "license": "MIT",
     "repository": {
@@ -15,7 +15,7 @@
         "types",
         "data-crypto"
     ],
-    "devDependencies": {
+    "dependencies": {
         "data-crypto": "^1.4.4"
     }
 }
