@@ -90,7 +90,7 @@ declare module "data-crypto" {
   export namespace TripleDes {
     function encrypt(plainTextHex: string, keyHex: string): string;
     function decrypt(cipher: string, keyHex: string): string;
-}
+  }
 
   export namespace des {
     function encrypt(plainTextHex: string, keyHex: string): string;

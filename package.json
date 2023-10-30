@@ -16,11 +16,16 @@
         "data-crypto"
     ],
     "scripts": {
-        "prepublishOnly": "prettier --write '**/*.{ts,tsx}'"
+        "pre-commit": "prettier --write '**/*.{ts,tsx}'"
+    },
+    "husky": {
+        "hooks": {
+            "pre-commit": "npm run pre-commit"
+        }
     },      
-    "dependencies": {},
     "devDependencies": {
         "data-crypto": "^1.4.4",
+        "husky": "^8.0.3",
         "prettier": "^3.0.3"
     }
 }
