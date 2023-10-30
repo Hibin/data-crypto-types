@@ -1,6 +1,6 @@
 {
     "name": "data-crypto-types",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "description": "TypeScript type definitions for the data-crypto module",
     "main": "",
     "types": "index.d.ts",
