@@ -1,6 +1,6 @@
 {
     "name": "data-crypto-types",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "TypeScript type definitions for the data-crypto module",
     "main": "",
     "types": "index.d.ts",
@@ -15,7 +15,13 @@
         "types",
         "data-crypto"
     ],
+    "scripts": {
+        "prepublishOnly": "prettier --write '**/*.{ts,tsx}'"
+    },      
     "dependencies": {
         "data-crypto": "^1.4.4"
+    },
+    "devDependencies": {
+        "prettier": "^3.0.3"
     }
 }
