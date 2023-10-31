@@ -1,6 +1,6 @@
 {
     "name": "data-crypto-types",
-    "version": "0.0.5",
+    "version": "0.0.6",
     "description": "TypeScript type definitions for the data-crypto module",
     "main": "",
     "types": "index.d.ts",
@@ -22,8 +22,9 @@
         "hooks": {
             "pre-commit": "npm run pre-commit"
         }
-    },      
+    },
     "devDependencies": {
+        "@types/node": "^20.8.10",
         "data-crypto": "^1.4.4",
         "husky": "^8.0.3",
         "prettier": "^3.0.3"
